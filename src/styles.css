@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* .custom-text-white {
+	color: #f2f2f2;
+} */
+
+html {
+	color: red;
+}
