@@ -1,5 +1,8 @@
 .custom-navbar {
 	background-color: transparent;
 	position: fixed;
-	color: #f2f2f2;
+}
+
+.custom-link:hover {
+	color: #ffffff;
 }
