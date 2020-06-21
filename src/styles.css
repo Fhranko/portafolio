@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@400;500&display=swap');
 body {
 	color: #f2f2f2;
+	font-family: 'Montserrat', sans-serif;
 }
 a {
 	color: #f2f2f2;

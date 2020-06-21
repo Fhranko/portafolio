@@ -1,7 +1,35 @@
-.jumbotron {
+.hero-section {
 	background-image: url('/assets/img/Hero-image.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
+}
+
+.hero-text {
+	font-size: 2.6175rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+.custom-btn {
+	background-color: transparent;
+	color: #f2f2f2;
+	padding: 0.5rem 2rem;
+}
+
+.custom-btn-primary {
+	border: solid 1px #f2f2f2;
+	border-radius: 5px;
+}
+
+.custom-btn-primary:hover {
+	background-color: #2f2f2f;
+}
+
+.custom-btn-secondary {
+	border: none;
+}
+
+.custom-container {
+	padding: 0;
 }
