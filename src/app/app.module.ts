@@ -7,9 +7,11 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeroComponent } from './components/hero/hero.component';
+import { ItemLeftPortfolioComponent } from './components/item-left-portfolio/item-left-portfolio.component';
+import { ItemRightPortfolioComponent } from './components/item-right-portfolio/item-right-portfolio.component';
 
 @NgModule({
-	declarations: [ AppComponent, NavbarComponent, HomeComponent, HeroComponent ],
+	declarations: [ AppComponent, NavbarComponent, HomeComponent, HeroComponent, ItemLeftPortfolioComponent, ItemRightPortfolioComponent ],
 	imports: [ BrowserModule, AppRoutingModule, NgxTypedJsModule ],
 	providers: [],
 	bootstrap: [ AppComponent ]
