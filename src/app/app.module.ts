@@ -11,7 +11,14 @@ import { ItemLeftPortfolioComponent } from './components/item-left-portfolio/ite
 import { ItemRightPortfolioComponent } from './components/item-right-portfolio/item-right-portfolio.component';
 
 @NgModule({
-	declarations: [ AppComponent, NavbarComponent, HomeComponent, HeroComponent, ItemLeftPortfolioComponent, ItemRightPortfolioComponent ],
+	declarations: [
+		AppComponent,
+		NavbarComponent,
+		HomeComponent,
+		HeroComponent,
+		ItemLeftPortfolioComponent,
+		ItemRightPortfolioComponent
+	],
 	imports: [ BrowserModule, AppRoutingModule, NgxTypedJsModule ],
 	providers: [],
 	bootstrap: [ AppComponent ]
