@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProyectosService, Proyecto } from '../../services/proyectos.service';
 
 @Component({
 	selector: 'app-home',
@@ -6,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 	styleUrls: [ './home.component.css' ]
 })
 export class HomeComponent implements OnInit {
-	constructor() {}
+	proyectos: Proyecto[] = [];
+	constructor(private _proyectosService: ProyectosService) {}
 
-	ngOnInit() {}
+	ngOnInit() {
+		this.proyectos = this._proyectosService.getProyectos();
+		console.log(this.proyectos);
+	}
 }

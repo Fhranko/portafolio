@@ -1,11 +1,17 @@
 .portfolio-item {
 	color: #2f2f2f;
+	/* background-color: #2f2f2f; */
+	border-radius: 5px;
 }
 
 .porfolio-button {
-	margin: 1rem;
+	padding: 0.5rem;
+	/* margin: 1rem; */
 	border-radius: 5px;
 	border: 1px solid #2f2f2f;
+	background-color: transparent;
+	color: #2f2f2f;
+	text-decoration: none;
 }
 
 .porfolio-button:hover {

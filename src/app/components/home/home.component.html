@@ -3,7 +3,14 @@
 <h2 class="custom-title text-center mt-5 ">Portafolio</h2>
 <hr class="subrayado mt-0">
 <div class="container">
-  <app-item-left-portfolio></app-item-left-portfolio>
-  <app-item-right-portfolio></app-item-right-portfolio>
-  <app-item-left-portfolio></app-item-left-portfolio>
+  <div *ngFor="let proyecto of proyectos">
+    <ng-container *ngIf="proyecto.posicion; else elseTemplate">
+      <app-item-left-portfolio [proyecto]="proyecto"></app-item-left-portfolio>
+    </ng-container>
+    <ng-template #elseTemplate>
+      <app-item-right-portfolio [proyecto]="proyecto"></app-item-right-portfolio>
+    </ng-template>
+
+
+  </div>
 </div>
