@@ -1,3 +1,17 @@
+@media (min-width: 991.98px) {
+	.portfolio-buttons {
+		width: 50%;
+	}
+	.porfolio-button {
+		padding: 0.5rem 2rem;
+	}
+}
+
+.portfolio-title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
 .portfolio-item {
 	color: #f2f2f2;
 	background-color: #2f2f2f;
