@@ -10,6 +10,7 @@ import { HeroComponent } from './components/hero/hero.component';
 import { ItemLeftPortfolioComponent } from './components/item-left-portfolio/item-left-portfolio.component';
 import { ItemRightPortfolioComponent } from './components/item-right-portfolio/item-right-portfolio.component';
 import { ParalaxComponent } from './components/paralax/paralax.component';
+import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 
 @NgModule({
 	declarations: [
@@ -19,7 +20,8 @@ import { ParalaxComponent } from './components/paralax/paralax.component';
 		HeroComponent,
 		ItemLeftPortfolioComponent,
 		ItemRightPortfolioComponent,
-		ParalaxComponent
+		ParalaxComponent,
+		HabilidadesComponent
 	],
 	imports: [ BrowserModule, AppRoutingModule, NgxTypedJsModule ],
 	providers: [],
