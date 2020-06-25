@@ -11,6 +11,7 @@ import { ItemLeftPortfolioComponent } from './components/item-left-portfolio/ite
 import { ItemRightPortfolioComponent } from './components/item-right-portfolio/item-right-portfolio.component';
 import { ParalaxComponent } from './components/paralax/paralax.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
+import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
 
 @NgModule({
 	declarations: [
@@ -21,7 +22,8 @@ import { HabilidadesComponent } from './components/habilidades/habilidades.compo
 		ItemLeftPortfolioComponent,
 		ItemRightPortfolioComponent,
 		ParalaxComponent,
-		HabilidadesComponent
+		HabilidadesComponent,
+		TecnologiasComponent
 	],
 	imports: [ BrowserModule, AppRoutingModule, NgxTypedJsModule ],
 	providers: [],
