@@ -1,0 +1,26 @@
+.about-section {
+	background-image: url('/assets/img/paralax.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #f2f2f2;
+}
+
+@media (min-width: 991.98px) {
+	.about-text {
+		width: 50%;
+	}
+}
+
+.about-button {
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+}
+
+.about-button:hover {
+	color: #f2f2f2;
+	border: 1px solid #2f2f2f;
+	background-color: #2f2f2f;
+}

@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { ItemLeftPortfolioComponent } from './components/item-left-portfolio/item-left-portfolio.component';
 import { ItemRightPortfolioComponent } from './components/item-right-portfolio/item-right-portfolio.component';
+import { ParalaxComponent } from './components/paralax/paralax.component';
 
 @NgModule({
 	declarations: [
@@ -17,7 +18,8 @@ import { ItemRightPortfolioComponent } from './components/item-right-portfolio/i
 		HomeComponent,
 		HeroComponent,
 		ItemLeftPortfolioComponent,
-		ItemRightPortfolioComponent
+		ItemRightPortfolioComponent,
+		ParalaxComponent
 	],
 	imports: [ BrowserModule, AppRoutingModule, NgxTypedJsModule ],
 	providers: [],
