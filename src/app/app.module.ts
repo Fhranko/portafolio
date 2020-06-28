@@ -12,6 +12,9 @@ import { ItemRightPortfolioComponent } from './components/item-right-portfolio/i
 import { ParalaxComponent } from './components/paralax/paralax.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { TargetaContactoComponent } from './components/targeta-contacto/targeta-contacto.component';
 
 @NgModule({
 	declarations: [
@@ -23,7 +26,10 @@ import { TecnologiasComponent } from './components/tecnologias/tecnologias.compo
 		ItemRightPortfolioComponent,
 		ParalaxComponent,
 		HabilidadesComponent,
-		TecnologiasComponent
+		TecnologiasComponent,
+		FooterComponent,
+		ContactoComponent,
+		TargetaContactoComponent
 	],
 	imports: [ BrowserModule, AppRoutingModule, NgxTypedJsModule ],
 	providers: [],

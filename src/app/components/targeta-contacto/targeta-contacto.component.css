@@ -1,0 +1,8 @@
+.container-targeta {
+	background-color: #737373;
+	position: absolute;
+	/* bottom: 70%; */
+	width: 50%;
+	height: 25%;
+	z-index: 1000;
+}
