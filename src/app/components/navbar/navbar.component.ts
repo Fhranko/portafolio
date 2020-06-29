@@ -10,13 +10,17 @@ export class NavbarComponent implements OnInit {
 
 	ngOnInit() {}
 
-	@HostListener('window:scroll', [ '$event' ])
-	onWindowScroll(e) {
-		let element = document.querySelector('.navbar');
-		if (window.pageYOffset > element.clientHeight) {
-			element.classList.add('custom-navbar-dark');
-		} else {
-			element.classList.remove('custom-navbar-dark');
-		}
+	// @HostListener('window:scroll', [ '$event' ])
+	// onWindowScroll(e) {
+	// 	let element = document.querySelector('.navbar');
+	// 	if (window.pageYOffset > element.clientHeight) {
+	// 		element.classList.add('custom-navbar-dark');
+	// 	} else {
+	// 		element.classList.remove('custom-navbar-dark');
+	// 	}
+	// }
+	ocultarNavbar() {
+		let element = document.getElementById('navbarSupportedContent');
+		element.classList.remove('show');
 	}
 }

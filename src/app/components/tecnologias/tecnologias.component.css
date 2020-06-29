@@ -8,3 +8,8 @@ img {
 img:hover {
 	filter: none;
 }
+
+.linea-titulo {
+	border-top: 1px solid #2f2f2f;
+	width: 20%;
+}

@@ -1,19 +1,23 @@
-<app-navbar></app-navbar>
-<app-hero></app-hero>
-<h2 class="custom-title text-center mt-5 ">Portafolio</h2>
-<hr class="subrayado mt-0">
-<div class="container">
-  <div *ngFor="let proyecto of proyectos">
-    <ng-container *ngIf="proyecto.posicion; else elseTemplate">
-      <app-item-left-portfolio [proyecto]="proyecto"></app-item-left-portfolio>
-    </ng-container>
-    <ng-template #elseTemplate>
-      <app-item-right-portfolio [proyecto]="proyecto"></app-item-right-portfolio>
-    </ng-template>
+<div class="home-container">
+  <app-navbar></app-navbar>
+  <app-hero></app-hero>
+  <div id="portafolio" class="portafolio-container">
+    <h2 class="custom-title text-center mt-5 ">Portafolio</h2>
+    <hr class="subrayado my-0">
+    <div class="container">
+      <div *ngFor="let proyecto of proyectos">
+        <ng-container *ngIf="proyecto.posicion; else elseTemplate">
+          <app-item-left-portfolio [proyecto]="proyecto"></app-item-left-portfolio>
+        </ng-container>
+        <ng-template #elseTemplate>
+          <app-item-right-portfolio [proyecto]="proyecto"></app-item-right-portfolio>
+        </ng-template>
+      </div>
+    </div>
   </div>
+  <app-paralax></app-paralax>
+  <app-habilidades></app-habilidades>
+
+  <app-tecnologias></app-tecnologias>
+  <app-footer></app-footer>
 </div>
-<app-paralax></app-paralax>
-<app-habilidades></app-habilidades>
-<app-tecnologias></app-tecnologias>
-<!-- <app-targeta-contacto></app-targeta-contacto> -->
-<app-footer></app-footer>

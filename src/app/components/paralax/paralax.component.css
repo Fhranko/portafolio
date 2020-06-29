@@ -4,6 +4,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #f2f2f2;
+	background-attachment: fixed;
 }
 
 @media (min-width: 991.98px) {

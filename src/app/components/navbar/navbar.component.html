@@ -1,6 +1,6 @@
-<nav class="navbar navbar-dark navbar-expand-sm fixed-top custom-navbar" (scroll)="onWindowScroll($event);">
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top custom-navbar">
 	<div class="container p-0">
-		<a href="#" class="navbar-brand">
+		<a href="#hero" class="navbar-brand">
 			FH
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -9,10 +9,15 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<div class="navbar-nav text-center d-flex justify-content-end w-100 ">
-				<a href="#" class="nav-item nav-link">Portafolio</a>
-				<a href="#" class="nav-item nav-link">Sobre Mi</a>
-				<a href="#" class="nav-item nav-link">Contacto</a>
+				<a href="#portafolio" (click)="ocultarNavbar()" class="nav-item nav-link js-scroll-trigger">Portafolio</a>
+				<a href="#about" (click)="ocultarNavbar()" class="nav-item nav-link js-scroll-trigger">Sobre Mi</a>
+				<a href="#contacto" (click)="ocultarNavbar()" class="nav-item nav-link js-scroll-trigger">Contacto</a>
 			</div>
 		</div>
 	</div>
 </nav>
+<!-- <script type="text/javascript">
+	$('.js-scroll-trigger').click(function () {
+		$('.navbar-collapse').collapse('hide');
+	});
+</script> -->

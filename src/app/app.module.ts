@@ -14,7 +14,6 @@ import { HabilidadesComponent } from './components/habilidades/habilidades.compo
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
-import { TargetaContactoComponent } from './components/targeta-contacto/targeta-contacto.component';
 
 @NgModule({
 	declarations: [
@@ -28,8 +27,7 @@ import { TargetaContactoComponent } from './components/targeta-contacto/targeta-
 		HabilidadesComponent,
 		TecnologiasComponent,
 		FooterComponent,
-		ContactoComponent,
-		TargetaContactoComponent
+		ContactoComponent
 	],
 	imports: [ BrowserModule, AppRoutingModule, NgxTypedJsModule ],
 	providers: [],
