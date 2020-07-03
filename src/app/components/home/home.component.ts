@@ -12,6 +12,5 @@ export class HomeComponent implements OnInit {
 
 	ngOnInit() {
 		this.proyectos = this._proyectosService.getProyectos();
-		console.log(this.proyectos);
 	}
 }

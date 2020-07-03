@@ -53,7 +53,6 @@ export class ProyectosService {
 	];
 
 	constructor() {
-		console.log('Servicio listo para usarse');
 	}
 	getProyectos(): Proyecto[] {
 		return this.proyectos;
